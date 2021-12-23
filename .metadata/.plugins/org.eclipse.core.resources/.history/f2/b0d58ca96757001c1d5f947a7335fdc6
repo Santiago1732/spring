@@ -1,0 +1,7 @@
+package com.santiago.springdemo;
+
+public interface Escuela {
+	
+	public String comunicarProgramaMaterias();
+
+}

@@ -1,0 +1,13 @@
+package com.santiago.springdemo;
+
+public interface Director implements Escuela{
+
+	public String comunicarProgramaMaterias() {
+		return null;
+	}
+
+	public String recibosSueldo() {
+		return null;
+	}
+	
+}

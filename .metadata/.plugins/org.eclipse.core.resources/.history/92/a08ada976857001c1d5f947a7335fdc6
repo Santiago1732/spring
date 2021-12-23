@@ -1,0 +1,15 @@
+package com.santiago.springdemo;
+
+public class MaestraLengua implements Director{
+
+	@Override
+	public String comunicarProgramaMaterias() {
+		return null;
+	}
+
+	@Override
+	public String recibosSueldo() {
+		return null;
+	}
+
+}

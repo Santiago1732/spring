@@ -1,0 +1,14 @@
+package com.santiago.springdemo;
+
+public class HelloSpringApp {
+	
+	public static void main(String[] args) {
+		
+//		cargar el archivo de configuracion
+		ClassPathXmlApplicationContext context =
+				new ClassPathXmlApplicationContext("applicationContext.xml");
+//		
+		
+	}
+
+}

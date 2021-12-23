@@ -1,0 +1,15 @@
+package com.santiago.springdemo;
+
+public class BocaJuniors implements AFA{
+
+	@Override
+	public String empiezaElTorneo() {
+		return "BOCA Empieza el torneo";
+	}
+	
+	public String resultado() {
+		return "Boca pierde";
+	}
+	
+
+}

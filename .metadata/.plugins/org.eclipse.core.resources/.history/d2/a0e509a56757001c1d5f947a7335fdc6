@@ -1,0 +1,10 @@
+package com.santiago.springdemo;
+
+public interface Escuela {
+	
+	public static String comunicarProgramaMaterias() {
+		
+		return "Comunicado alumnos: Se daran clases de 8 a 12 por pandemia";
+	}
+
+}

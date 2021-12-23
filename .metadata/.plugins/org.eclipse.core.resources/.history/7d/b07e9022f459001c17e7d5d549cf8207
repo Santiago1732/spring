@@ -1,0 +1,16 @@
+package com.santiago.springdemo;
+
+public class HelloSpring {
+
+	public static void main(String[] args) {
+
+		Santi santi = new Santi();
+		
+		System.out.println(santi.cargarHoras());
+		System.out.println(santi.compremosComida());
+	}
+	
+	
+
+	
+}

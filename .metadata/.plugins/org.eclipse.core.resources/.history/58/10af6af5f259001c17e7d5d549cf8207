@@ -1,0 +1,17 @@
+package com.santiago.springdemo;
+
+public class Fede implements AgustinCingolani {
+
+	@Override
+	public String cargarHoras() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String compremosComida() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.santiago.springdemo;
+
+public class EntrenadorFutbol implements Entrenador {
+
+	//Definir el constructor para los services
+	
+	@Override
+	public String getDailyWorkout() {
+		return "Entrenamiento de pases por 20 minutos";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return "Te deseo suerte!!";
+	}
+	
+	
+
+}

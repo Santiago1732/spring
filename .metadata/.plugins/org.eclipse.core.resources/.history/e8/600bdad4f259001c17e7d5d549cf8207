@@ -1,0 +1,19 @@
+package com.santiago.springdemo;
+
+public class Santi implements AgustinCingolani{
+
+	@Override
+	public String cargarHoras() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String compremosComida() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

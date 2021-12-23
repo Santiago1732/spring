@@ -1,0 +1,17 @@
+package com.santiago.springdemo;
+
+public class MaestraLengua implements Director,Escuela {
+
+	@Override
+	public String comunicarProgramaMaterias() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String recibosSueldo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

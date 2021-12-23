@@ -1,0 +1,8 @@
+package com.santiago.springdemo;
+
+public class HelloSpring {
+	
+	
+	Santi santi = new Santi();
+
+}

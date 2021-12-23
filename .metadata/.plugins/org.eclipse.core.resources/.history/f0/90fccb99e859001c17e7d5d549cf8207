@@ -1,0 +1,13 @@
+package com.santiago.springdemo;
+
+public class ImpDirectorTecnicoService implements DirectorTecnicoService {
+
+	DirectorTecnicoService dtService;
+	
+	@Override
+	public String nombreDirectorTecnico() {
+		return "Marcelo Gallardo";
+	}
+	
+
+}

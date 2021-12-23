@@ -1,0 +1,12 @@
+package com.santiago.springdemo;
+
+public class TecnicoRiverService implements DirectorTecnicoService {
+
+	@Override
+	public String nombreDirectorTecnico() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

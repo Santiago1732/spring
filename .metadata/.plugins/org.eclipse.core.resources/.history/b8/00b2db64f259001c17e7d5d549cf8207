@@ -1,0 +1,10 @@
+package com.santiago.springdemo;
+
+public class ImpFortuneService implements FortuneService{
+
+	@Override
+	public String getFortune() {
+		return "Today is your lucky day!!";
+	}
+
+}

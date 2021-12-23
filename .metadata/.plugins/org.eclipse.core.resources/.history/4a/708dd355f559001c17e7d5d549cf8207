@@ -1,0 +1,24 @@
+package com.santiago.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloSpring {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext context = new
+				ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		Santi santi = context.getBean("santi", com.santiago.springdemo.Santi.class);
+		Fede fede = context.getBean("fede", com.santiago.springdemo.Fede.class);
+		Oli oli = context.getBean("oli", com.santiago.springdemo.Oli.class);
+		
+		
+		System.out.println(santi.cargarHoras());
+		System.out.println(santi.compremosComida());
+	}
+	
+	
+
+	
+}

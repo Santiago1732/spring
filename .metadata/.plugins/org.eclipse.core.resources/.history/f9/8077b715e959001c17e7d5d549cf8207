@@ -1,0 +1,7 @@
+package com.santiago.springdemo;
+
+public interface AFA {
+	
+	public String empiezaElTorneo();
+
+}

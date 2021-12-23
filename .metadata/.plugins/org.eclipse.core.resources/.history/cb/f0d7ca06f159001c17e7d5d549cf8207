@@ -1,0 +1,22 @@
+package com.santiago.springdemo;
+
+public class EntrenadorBasquet implements Entrenador {
+
+	private FortuneService fortuneService;
+	
+	public EntrenadorBasquet(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+	
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return fortuneService.getFortune();
+	}
+
+}

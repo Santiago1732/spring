@@ -1,0 +1,6 @@
+package com.santiago.springdemo;
+
+public class Oli implements AgustinCingolani {
+	
+
+}

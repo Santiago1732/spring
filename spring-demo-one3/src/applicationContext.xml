@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Generamos un bean-->
+    
+    
+<!-- 	Declaramos el bean dependencia -->
+<bean id="fortuneService" class="com.santiago.springdemo.ImpFortuneService"></bean>
+
+<bean id="entrenadorFutbol" class="com.santiago.springdemo.EntrenadorFutbol">
+<!-- 	Inyectamos la dependencia en el bean -->
+	<constructor-arg ref="fortuneService"></constructor-arg>
+</bean>
+
+<bean id="entrenadorBasquet" class="com.santiago.springdemo.EntrenadorBasquet">
+	<constructor-arg ref="fortuneService"></constructor-arg>
+</bean>
+
+</beans>
+
+
+
+
+

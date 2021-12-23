@@ -1,0 +1,7 @@
+package com.santiago.springdemo;
+
+public interface DirectorTecnicoService {
+	
+	public String nombreDirectorTecnico();
+
+}

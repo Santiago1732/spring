@@ -1,0 +1,14 @@
+package com.santiago.springdemo;
+
+public class RiverPlate implements AFA {
+
+	
+	public String empiezaElTorneo() {
+		return "Empieza el torneo";
+	}
+	
+	public String riverGana() {
+		return "river gana";
+	}
+
+}

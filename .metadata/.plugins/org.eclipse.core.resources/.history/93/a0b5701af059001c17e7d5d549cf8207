@@ -1,0 +1,20 @@
+package com.santiago.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloSpring {
+	
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context = new
+				ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		
+		EntrenadorFutbol entrenadorFutbol = context.getBean("entrenadorFutbol", EntrenadorFutbol.class);
+//		MaestraLengua maestraLengua = context.getBean("maestraLengua", MaestraLengua.class);
+		
+		System.out.println(entrenadorFutbol.getDailyFortune());
+		System.out.println(entrenadorFutbol.getDailyWorkout());
+	}
+
+}

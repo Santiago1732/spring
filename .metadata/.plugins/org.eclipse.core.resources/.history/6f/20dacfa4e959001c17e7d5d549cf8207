@@ -1,0 +1,18 @@
+package com.santiago.springdemo;
+
+public class EntrenadorFutbol implements Entrenador {
+
+	@Override
+	public String getDailyWorkout() {
+		return "Entrenamiento de pases por 20 minutos";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
